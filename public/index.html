@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Express</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="javascripts/Palindrome.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+
+    </div>
+    <div class="w3-display-middle">
+        <div>
+            <input type="button" onclick="unitTest(1)" name="Unit #1" value="Unit #1" class="buttonOK">
+            <input type="button" onclick="unitTest(2)" name="Unit #2" value="Unit #2" class="buttonOK">
+            <input type="button" onclick="unitTest(3)" name="Unit #3" value="Unit #3" class="buttonOK">
+            <input type="button" onclick="unitTest(4)" name="Unit #4" value="Unit #4" class="buttonOK">
+        </div>
+        <div class="centerText">
+            <label for="mainTextArea"></label><textarea oninput="palindrome()" id="mainTextArea" name='mainTextArea'
+                                                        rows="4" cols="120" placeholder="Vlož text.." autofocus
+                                                        maxlength="1000000" draggable="false"></textarea><br>
+
+            <div>
+                <input type="button" onclick="clean()" value="Reset" class="button">
+                <input type="button" onclick="makePalindrome()" value="Vygeneruj palindrom" class="button" disabled
+                       id="makePalindromeButton">
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
