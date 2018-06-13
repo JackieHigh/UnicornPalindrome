@@ -54,4 +54,4 @@ V aplikaci jsou přidány tlačítka, kterými lze vložit předdefinované řet
 * **Jakub Pluhař** - *Initial work* - [JakubPluhar](https://github.com/JakubPluhar)
 ## License
 
-Tento projekt je licencovaný pod MIT License - více v [LICENSE.md](LICENSE)
+Tento projekt je licencovaný pod MIT License - více v [LICENSE](LICENSE)
