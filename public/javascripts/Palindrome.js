@@ -25,7 +25,7 @@ function unitTest(variant) {
             fillTextArea('Jelenovi pivo nelej');
             break;
         case 2:
-            fillTextArea('Tahle věta rozhodně nění palindrom');
+            fillTextArea('Tahle věta rozhodně není palindrom');
             break;
         case 3:
             let text = 'a';

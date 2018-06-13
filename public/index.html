@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Express</title>
+    <title>Palindrom</title>
     <link rel="stylesheet" href="/stylesheets/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,10 +22,10 @@
     </div>
     <div class="w3-display-middle">
         <div>
-            <input type="button" onclick="unitTest(1)" name="Unit #1" value="Unit #1" class="buttonOK">
-            <input type="button" onclick="unitTest(2)" name="Unit #2" value="Unit #2" class="buttonOK">
-            <input type="button" onclick="unitTest(3)" name="Unit #3" value="Unit #3" class="buttonOK">
-            <input type="button" onclick="unitTest(4)" name="Unit #4" value="Unit #4" class="buttonOK">
+            <input type="button" onclick="unitTest(1)" name="Unit #1" value="Jelenovi pivo nelej" class="buttonTEST">
+            <input type="button" onclick="unitTest(2)" name="Unit #2" value="Není palindrom" class="buttonTEST">
+            <input type="button" onclick="unitTest(3)" name="Unit #3" value="Milion znaků" class="buttonTEST">
+            <input type="button" onclick="unitTest(4)" name="Unit #4" value="Různé znaky" class="buttonTEST">
         </div>
         <div class="centerText">
             <label for="mainTextArea"></label><textarea oninput="palindrome()" id="mainTextArea" name='mainTextArea'
@@ -33,7 +33,7 @@
                                                         maxlength="1000000" draggable="false"></textarea><br>
 
             <div>
-                <input type="button" onclick="clean()" value="Reset" class="button">
+                <input type="button" onclick="clean()" value="Reset" class="buttonKO">
                 <input type="button" onclick="makePalindrome()" value="Vygeneruj palindrom" class="button" disabled
                        id="makePalindromeButton">
             </div>
