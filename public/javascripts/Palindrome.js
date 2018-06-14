@@ -125,17 +125,19 @@ function reverse(string) {
 }
 
 /* Returns true if input string is palindrome.  */
-function checkPalindrome(string) {
-    /* Remove special characters, spaces and make lowercase. */
-    let removeChar = removeDiacritic(string).toString().replace(/[^A-Za-z0-9]/ig, "").toLowerCase();
-    /* Reverse text for comparison. */
-    let checkPalindrome = reverse(removeChar);
-    if (removeChar === '') {
-        clean();
-        return;
+module.exports = {
+    palindrome: function checkPalindrome(string) {
+        /* Remove special characters, spaces and make lowercase. */
+        let removeChar = removeDiacritic(string).toString().replace(/[^A-Za-z0-9]/ig, "").toLowerCase();
+        /* Reverse text for comparison. */
+        let checkPalindrome = reverse(removeChar);
+        if (removeChar === '') {
+            clean();
+            return;
+        }
+        /* Check to see if string is a palindrome. */
+        return removeChar === checkPalindrome;
     }
-    /* Check to see if string is a palindrome. */
-    return removeChar === checkPalindrome;
-}
+};
 
 
