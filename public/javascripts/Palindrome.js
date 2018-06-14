@@ -1,6 +1,6 @@
-window.onbeforeunload = function () {
-    clean();
-};
+// window.onbeforeunload = function () {
+//     clean();
+// };
 
 /* Inputs text (This is for buttons). */
 function fillTextArea(text) {
@@ -137,3 +137,5 @@ function checkPalindrome(string) {
     /* Check to see if string is a palindrome. */
     return removeChar === checkPalindrome;
 }
+
+

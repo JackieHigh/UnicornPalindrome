@@ -1,20 +1,16 @@
 {
-  "name": "learn-travis-JakubPluhar",
-  "version": "0.0.1",
+  "name": "palindrome",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "jshint test.js"
+    "test": "qunit public/javascripts/test.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "less-middleware": "~2.2.1",
-    "morgan": "~1.9.0"
-  },
-  "description": "Simple Travis-CI check for JSHint (Code Linting)",
-  "author": "JakubPluhar",
-  "devDependencies": {
-    "jshint": "^2.9.5"
+    "morgan": "~1.9.0",
+    "qunit": "^2.6.1"
   }
 }
