@@ -51,7 +51,7 @@ V aplikaci jsou přidány tlačítka, kterými lze vložit předdefinované řet
 * [IntelliJ WebStorm](https://www.jetbrains.com/webstorm/) - IDE pro vývoj webových aplikací
 * [Node.js](https://nodejs.org/en/) - Web framework
 * [W3Schools](https://www.w3schools.com) - Zdroj informací
-* [qunit](https://qunitjs.com/)
+* [qunit](https://qunitjs.com/) - Unit testy
 
 ## Autoři
 
