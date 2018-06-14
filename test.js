@@ -4,5 +4,5 @@ http.createServer(function (req, res) {
     res.end('Hello Travis!\n');
 }).listen(1337, '127.0.0.1');
 console.log('Server running at http://127.0.0.1:3000/');
-checkPalindrome("Jelenovi pivo nelej");
-checkPalindrome("Není palindrom");
+console.log(checkPalindrome("Jelenovi pivo nelej"));
+(checkPalindrome("Není palindrom"));
