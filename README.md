@@ -10,7 +10,10 @@ Jednoúčelová, jednoduchá aplikace pro ověření, zda zadaný řetězec je p
 Jaký software je nutný ke spuštění aplikace
 
 [Node.js](https://nodejs.org/en/download/)
+
 [Mozilla Firefox](https://www.mozilla.org)
+
+[qunit](https://qunitjs.com/)
 
 ### Instalace
 
