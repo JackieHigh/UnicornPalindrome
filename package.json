@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "qunit public/javascripts/test.js"
+    "test": "qunit public/javascripts/test.js",
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "and": "0.0.3",
