@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/JakubPluhar/UnicornPalindrome.svg?branch=master)](https://travis-ci.org/JakubPluhar/UnicornPalindrome)
 # Soutěžní projekt "Palindrom"
 
 Jednoúčelová, jednoduchá aplikace pro ověření, zda zadaný řetězec je palindrom.
